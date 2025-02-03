@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel agency: Destinations</title>
+    <meta name="description" content="Travel agency: Destinations">
+    <meta name="author" content="You">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&family=Montserrat:400,700&&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./css/header.css" rel="stylesheet" type="text/css">
+    <link href="./css/destinations.css" rel="stylesheet" type="text/css">
+    <link href="./css/footer.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="topbar">
+        <div class="container-md wrap">
+            <form class="input-group">
+                <img src="./icons/search-white.svg" alt="Search">
+                <input class="form-control" id="search-field" name="query" placeholder="Search" type="text">
+            </form>
+            <div id="logo">
+                <a href="/index.html">
+                    <img src="./icons/globe-white.svg" alt="Logo">
+                </a>
+            </div>
+            <div id="menu">
+                <nav class="d-none d-md-block">
+                    <a href="/index.html">Home</a>
+                    <a href="/destinations.html" class="active">Destinations</a>
+                    <a href="/contact-us.html">Contact Us</a>
+                </nav>
+                <img class="menu-bars d-md-none" src="./icons/three-bars-white.svg" alt="Menu">
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container-md">
+            <div class="destinations">
+                <div class="destination">
+                    <a href="./destinations/paris.html">
+                        <img alt="Eiffel Tower, Paris" src="./images/destinations/paris.jpg">
+
+                        <div class="location">
+                            <strong>Paris</strong>
+                            <div class="country">France</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="destination">
+                    <a href="./destinations/san-francisco.html">
+                        <img alt="Golden Gate Bridge, San Francisco" src="./images/destinations/san-francisco.jpg">
+                        <div class="location">
+                            <strong>San Francisco</strong>
+                            <div class="country">United States</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="destination">
+                    <a href="./destinations/sydney.html">
+                        <img alt="Sydney Opera House, Sydney" src="./images/destinations/sydney.jpg">
+                        <div class="location">
+                            <strong>Sydney</strong>
+                            <div class="country">Australia</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="destination">
+                    <a href="./destinations/tokyo.html">
+                        <img alt="Sensō-ji, Tokyo" src="./images/destinations/tokyo.jpg">
+                        <div class="location">
+                            <strong>Tokyo</strong>
+                            <div class="country">Japan</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="destination">
+                    <img alt="Colosseum, Rome" src="./images/destinations/rome.webp">
+                    <div class="location">
+                        <strong>Rome</strong>
+                        <div class="country">Italy</div>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img alt="Great Wall of China, Beijing" src="./images/destinations/beijing.webp">
+                    <div class="location">
+                        <strong>Beijing</strong>
+                        <div class="country">China</div>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img alt="Statue of Liberty, New York" src="./images/destinations/new-york.webp">
+                    <div class="location">
+                        <strong>New York</strong>
+                        <div class="country">United States</div>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img alt="Tower Bridge, London" src="./images/destinations/london.jpg">
+                    <div class="location">
+                        <strong>London</strong>
+                        <div class="country">United Kingdom</div>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img alt="Christ the Redeemer, Rio de Janeiro" src="./images/destinations/rio.jpg">
+                    <div class="location">
+                        <strong>Rio de Janeiro</strong>
+                        <div class="country">Brazil</div>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img alt="Burj Khalifa, Dubai" src="./images/destinations/dubai.jpg">
+                    <div class="location">
+                        <strong>Dubai</strong>
+                        <div class="country">United Arab Emirates</div>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img alt="Santorini, Greece" src="./images/destinations/santorini.jpg">
+                    <div class="location">
+                        <strong>Santorini</strong>
+                        <div class="country">Greece</div>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img alt="Taj Mahal, Agra" src="./images/destinations/agra.jpg">
+                    <div class="location">
+                        <strong>Agra</strong>
+                        <div class="country">India</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container-md">
+            <div>
+                <h3>Links</h3>
+                <nav>
+                    <a href="/index.html">Home</a>
+                    <a href="/destinations.html">Destinations</a>
+                    <a href="/contact-us.html">Contact</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                    euismod, nisl nec tincidunt dapibus, magna libero fermentum augu.
+                </p>
+                <form class="input-group">
+                    <input autocomplete="email" class="form-control" name="email" placeholder="Email" required
+                        type="email">
+                    <button class="btn btn-success" type="submit">
+                        Subscribe
+                        <img src="./icons/arrow-right-white.svg" alt="Arrow">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
