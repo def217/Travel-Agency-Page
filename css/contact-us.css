@@ -1,0 +1,9 @@
+.contact-form img {
+    max-width: 20px;
+}
+
+.thank-you-body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
